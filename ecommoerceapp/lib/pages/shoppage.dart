@@ -49,9 +49,7 @@ class Shoppage extends StatelessWidget {
                 itemCount: products.length,
                 padding: const EdgeInsets.all(15),
                 itemBuilder: (context, index) {
-                  //get each individual product from shop
                   final product = products[index];
-                  //return as product title as ui
                   return Myproducttile(product: product);
                 }),
           ),
